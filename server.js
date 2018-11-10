@@ -60,9 +60,9 @@ console.log(__dirname);
 require("firebase/firestore");
 // Firebase credentials
 firebase.initializeApp({
-    apiKey: '',
-    authDomain: '',
-    projectId: ''
+    apiKey: 'AIzaSyDFIaTJFtaj08-4raJGh0ezCv3HvLmH2G4',
+    authDomain: 'arduinoproj-7c927.firebaseapp.com',
+    projectId: 'arduinoproj-7c927'
 });
 var db = firebase.firestore();
 // Create port Object
