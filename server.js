@@ -55,6 +55,7 @@ const http = require('http');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname,'dist/PiApp')));
+console.log(__dirname)
 // Required for side-effects
 require("firebase/firestore");
 // Firebase credentials
