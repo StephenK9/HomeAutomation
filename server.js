@@ -59,9 +59,9 @@ app.use(express.static(path.join(__dirname,'dist/PiApp')));
 require("firebase/firestore");
 // Firebase credentials
 firebase.initializeApp({
-    apiKey: 'AIzaSyDFIaTJFtaj08-4raJGh0ezCv3HvLmH2G4',
-    authDomain: 'arduinoproj-7c927.firebaseapp.com',
-    projectId: 'arduinoproj-7c927'
+    apiKey: '',
+    authDomain: '',
+    projectId: ''
 });
 var db = firebase.firestore();
 // Create port Object
