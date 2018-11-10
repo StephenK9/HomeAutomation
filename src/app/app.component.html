@@ -1,0 +1,13 @@
+
+<h1>Raspberry Pi: local network Application</h1>
+  <h2>Sensors/Controllers</h2>
+  <ul>
+    <li *ngFor="let temp of temps">Temperature: {{temp.temp}} <hr> Relay state is: {{temp.relayState}} <hr> RGB value is {{temp.RGB}}</li>
+  </ul>
+  <button class ='btn btn-primary' (click)="setRelay()">Toggle Relay State</button>
+  <br>
+  <hr>
+  <button class ='btn btn-primary' (click)='RGBSlider($event)'>Toggle RGB value</button>
+  <div>
+    <!-- <input (click)='RGBSlider($event)' type="range" min="5" max="255" value="125" class="slider" id="myRange"> -->
+  </div>
